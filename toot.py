@@ -22,9 +22,14 @@ num_files = len(files)
 if num_files >= 1:
     position = randint(0, num_files-1)
     file = files[position]
-
+    with open(r'./dias/desc.txt', 'r') as fp:
+        lines = fp.readlines()
+        for line in lines:
+            if line.find(file) != -1:
+                    line_split = line.split(":")
+                    desc = line_split[1]
     media_path = path + file
-
-    media = mastodon.media_post(media_path)
+    
+    media = mastodon.media_post(media_path, description=desc)
     time.sleep(10)
     toot = mastodon.status_post(texto, media_ids=media)
