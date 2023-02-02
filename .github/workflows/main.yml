@@ -1,6 +1,8 @@
 name: toot-owo
 
-on: [push]
+on:
+  schedule:
+    - cron: "0 10 * * *"
 
 jobs:
   build:
