@@ -8,7 +8,7 @@ import time
 import config
 
 mastodon = Mastodon(
-    access_token = config.access_token,
+    access_token = os.environ['KEY'],
     api_base_url = 'https://owo.cafe'
     )
 files = []
