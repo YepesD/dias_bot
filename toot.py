@@ -12,7 +12,7 @@ mastodon = Mastodon(
     api_base_url = 'https://owo.cafe'
     )
 files = []
-dias = ["Es lunes", "Es martes", "Es miércoles", "Es jueves", "Es viernes", "Es sábado", "Es domingo"]
+dias = ["Es lunes", "Es martes", "Es miércoles", "Es jueves", "Es viernes!!!!", "Es sábado", "Es domingo"]
 dt = datetime.now()
 x = dt.weekday()
 
