@@ -23,5 +23,7 @@ jobs:
           pip install Mastodon.py
           
       - name: execute py script
+        env: 
+         KEY: ${{ secrets.ACCESS_TOKEN }}
         run: python toot.py
           
