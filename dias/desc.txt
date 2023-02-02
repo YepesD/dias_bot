@@ -2,6 +2,7 @@ lunes.jpg:Piolín con un paraguas rosa. Texto con cuatro fuentes distintas Feliz
 monday.jpg:Gato aburrido, tirado en el suelo, con la frase Monday, already?
 monday2.jpg:Mujer con una taza de desayuno y bostezando, con la frase I'm just a Friday girl living in a Monday world
 b1f.png:Rana con el texto It is Tuesday, my acquaintances
+marisa.gif:Un GIF de "feliz martes de Marisa" donde salen varios dibujos de Marisa Kirisame con purpurina.
 makelele.mp4:Vídeo de una persona cantando Hoy es Miércoles, se fuma makelele. Se le cae un tarro al suelo y se pone a llorar
 miercoles3.jpeg:Capitán Harlock dice -What a week, huh? Tintín responde -Captain, it's Wednesday
 wednesdaymydudeswide.jpg: Rana to planita to panzona con el texto It is Wednesday, my dudes
