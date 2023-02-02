@@ -1,6 +1,5 @@
 from mastodon import Mastodon
 import time
-import config
 import os
 mastodon = Mastodon(
     access_token = os.environ[KEY],
