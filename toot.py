@@ -5,7 +5,6 @@ import os
 from random import random
 from random import randint
 import time
-import config
 
 mastodon = Mastodon(
     access_token = os.environ['KEY'],
