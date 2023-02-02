@@ -2,7 +2,7 @@ name: toot-owo
 
 on:
  schedule:
-   - cron: "3 9 * * *"
+   - cron: "3 8 * * *"
 
 jobs:
   build:
