@@ -5,8 +5,10 @@ import os
 from random import random
 from random import randint
 import time
+import config
+
 mastodon = Mastodon(
-    access_token = 'bc2TBkikIxF8JV7F6InYfn3FOv4jk6MMD3ggZE_AiB8',
+    access_token = config.access_token,
     api_base_url = 'https://owo.cafe'
     )
 files = []
