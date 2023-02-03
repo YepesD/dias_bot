@@ -1,21 +1,21 @@
-lunes.jpg:Piolín con un paraguas rosa. Texto con cuatro fuentes distintas Feliz lunes para todos. Hoy será un gran día, espero que el tuyo sea muy lindo
-monday.jpg:Gato aburrido, tirado en el suelo, con la frase Monday, already?
-monday2.jpg:Mujer con una taza de desayuno y bostezando, con la frase I'm just a Friday girl living in a Monday world
-b1f.png:Rana con el texto It is Tuesday, my acquaintances
-marisa.gif:Un GIF de "feliz martes de Marisa" donde salen varios dibujos de Marisa Kirisame con purpurina.
-makelele.mp4:Vídeo de una persona cantando Hoy es Miércoles, se fuma makelele. Se le cae un tarro al suelo y se pone a llorar
-miercoles3.jpeg:Capitán Harlock dice -What a week, huh? Tintín responde -Captain, it's Wednesday
-wednesdaymydudeswide.jpg: Rana to planita to panzona con el texto It is Wednesday, my dudes
-jueves1.mp4:ironmouse diciendo en español Feliz Jueves
-jueves2.gif:Asuka de Evangelion corriendo con el texto Vengo corriendo que quiero ser la primera persona en desearte un feliz jueves!!
-california.mp4:Video de un policia japonés despertándose mientras dice Today is Friday in California
-fridaythen.mp4:Persona que se alegra porque es viernes, sale del coche y se pone a caminar mientras el coche arranca
-hoyesviernes.mp4:Goku en modo Super Saiyan Dios gritando que es viernes
-viernes1.mp4:Jovani Vazquez grita ES VIERNES y se queda mirando a cámara
-viernes2.png:Vin Diesel con las manos juntas con el texto Ahh he vuelto a caer en... el viejo truco de la super glue, feliz viernes a quien se lo merezca
-viernes3.jpg:Buggs Bunny de traje con el texto I wish all flat fucks a very Friday
-vierneschocu.jpeg:Chocu sobre fondo colorido con el texto Es viernes, Chocu lo sabe
-sabado1.mp4:Jovani Vazquez grita SABADO
-weeknd.mp4:Daniel Craig presenta al fin de semana en SNL
-MAPI3.png:Imagen de MAPI con el texto A todas las chicas del grupo... Feliz domingo!
-soup.png:Imagen de un gato con sobreexposición, el gorrito de tonio de jojos y un bol de sopa con el texto Customer -Having a seizure and is currently no clipping through the floor. Tonio coming out of the kitchen SOUP time
+lunes.jpg:Feliz lunes para todos:Piolín con un paraguas rosa. Texto con cuatro fuentes distintas Feliz lunes para todos. Hoy será un gran día, espero que el tuyo sea muy lindo
+monday.jpg:Monday, already?:Gato aburrido, tirado en el suelo, con la frase Monday, already?
+monday2.jpg:I'm just a Friday girl...:Mujer con una taza de desayuno y bostezando, con la frase I'm just a Friday girl living in a Monday world
+b1f.png:It's Tuesday, my acquaintances:Rana con el texto It is Tuesday, my acquaintances
+marisa.gif:Feliz martes de Marisa:Un GIF de "feliz martes de Marisa" donde salen varios dibujos de Marisa Kirisame con purpurina.
+makelele.mp4:Hoy es miércoles, se fuma makelele:Vídeo de una persona cantando Hoy es Miércoles, se fuma makelele. Se le cae un tarro al suelo y se pone a llorar
+miercoles3.jpeg:What a week, huh? Captian, it's Wednesday:Capitán Harlock dice -What a week, huh? Tintín responde -Captain, it's Wednesday
+wednesdaymydudeswide.jpg:It is Wednesday, my dudes:Rana to planita to panzona con el texto It is Wednesday, my dudes
+jueves1.mp4:Es Hueves:ironmouse diciendo en español Feliz Jueves
+jueves2.gif:Feliz jueves!:Asuka de Evangelion corriendo con el texto Vengo corriendo que quiero ser la primera persona en desearte un feliz jueves!!
+california.mp4:Today is Friday in California:Video de un policia japonés despertándose mientras dice Today is Friday in California
+fridaythen.mp4:It is Friday, then:Persona que se alegra porque es viernes, sale del coche y se pone a caminar mientras el coche arranca
+hoyesviernes.mp4:VIERNES:Goku en modo Super Saiyan Dios gritando que es viernes
+viernes1.mp4:VIERNEEEEES:Jovani Vazquez grita ES VIERNES y se queda mirando a cámara
+viernes2.png:Feliz viernes a quien se lo merezca:Vin Diesel con las manos juntas con el texto Ahh he vuelto a caer en... el viejo truco de la super glue, feliz viernes a quien se lo merezca
+viernes3.jpg:It is flat fuck Friday:Buggs Bunny de traje con el texto I wish all flat fucks a very Friday
+vierneschocu.jpeg:BIERNES:Chocu sobre fondo colorido con el texto Es viernes, Chocu lo sabe
+sabado1.mp4:SABADOOOooOOOo:Jovani Vazquez grita SABADO
+weeknd.mp4:Ladies and gentlemen... the weekend:Daniel Craig presenta al fin de semana en SNL
+MAPI3.png:Feliz domingo a todas las chicas de grupo:Imagen de MAPI con el texto A todas las chicas del grupo... Feliz domingo!
+soup.png:Sunday, it is time for soup:Imagen de un gato con sobreexposición, el gorrito de tonio de jojos y un bol de sopa con el texto Customer -Having a seizure and is currently no clipping through the floor. Tonio coming out of the kitchen SOUP time
