@@ -27,9 +27,11 @@ if num_files >= 1:
         for line in lines:
             if line.find(file) != -1:
                     line_split = line.split(":")
-                    desc = line_split[1]
+                    desc = line_split[2]
+                    texto = line_split[1]
+    if texto == "":
+        texto = dias[x]
     media_path = path + file
-    
     media = mastodon.media_post(media_path, description=desc)
     time.sleep(10)
     toot = mastodon.status_post(texto, media_ids=media)
