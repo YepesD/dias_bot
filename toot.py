@@ -33,5 +33,5 @@ if num_files >= 1:
         texto = dias[x]
     media_path = path + file
     media = mastodon.media_post(media_path, description=desc)
-    time.sleep(10)
+    time.sleep(20)
     toot = mastodon.status_post(texto, media_ids=media)
