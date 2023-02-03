@@ -2,7 +2,7 @@ from mastodon import Mastodon
 import time
 import os
 mastodon = Mastodon(
-    access_token = os.environ[KEY],
+    access_token = os.environ['KEY'],
     api_base_url = 'https://owo.cafe'
     )
 
