@@ -1,8 +1,8 @@
 name: fnight
 
-on:
- schedule:
-   - cron: "3 20 * * 5"
+on: [push]
+# schedule:
+#   - cron: "3 20 * * 5"
 
 jobs:
   build:
