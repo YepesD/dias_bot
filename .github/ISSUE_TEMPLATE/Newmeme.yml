@@ -1,0 +1,40 @@
+name: Nuevo meme
+description: Petición de nuevos memes al bot
+
+body:
+  - type: input
+    id: url
+    attributes:
+      label: URL del meme
+      description: "Por favor, pon aquí un link a la imagen o al vídeo"
+    validations:
+      required: true  
+  - type: dropdown
+    id: dia
+    attributes:
+      label: Dia de la semana
+      description: "Selecciona el día de la semana"
+      options:
+        - Lunes
+        - Martes
+        - Miércoles
+        - Jueves
+        - Viernes
+        - Sábado
+        - Domingo
+    validations:
+      required: true
+  - type: input
+    id: Toot
+    attributes:
+      label: Texto del toot
+      description: "Indica aquí el texto que quieras que aparezca al tootearse el meme"
+    validations:
+      required: true
+  - type: textarea
+    id: Alt Text
+    attributes:
+      label: Alt Text
+      description: "Por favor, describe aquí la imagen o el vídeo que has subido"
+    validations:
+      required: true
