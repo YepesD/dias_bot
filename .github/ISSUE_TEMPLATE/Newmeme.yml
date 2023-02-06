@@ -3,10 +3,10 @@ description: Petición de nuevos memes al bot
 labels: nuevo meme
 assignees: YepesD
 body:
-  - type: markdown
+- type: markdown
   attributes:
     value: "El propietario se reserva el derecho a no incluir la imagen o el vídeo si este incumple las normas de la instancia de Mastodon correspondiente."
-  - type: markdown
+- type: markdown
   attributes:
     value: |
       Como regla general no subiré ninguna imagen discriminatoria, que promueva delitos o bien contenga contenido NSFW
