@@ -20,7 +20,6 @@ x = dt.weekday()
 
 path = "./dias/" + str(x) + "/"
 files = os.listdir(path)
-texto = dias[x]
 num_files = len(files)
 if num_files >= 1:
     position = randint(0, num_files-1)
