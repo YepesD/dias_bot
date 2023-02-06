@@ -1,5 +1,6 @@
 lunes.jpg:Feliz lunes para todos:Piolín con un paraguas rosa. Texto con cuatro fuentes distintas Feliz lunes para todos. Hoy será un gran día, espero que el tuyo sea muy lindo
 monday.jpg:Monday, already?:Gato aburrido, tirado en el suelo, con la frase Monday, already?
+garfield.jpg:You don't hate Mondays...:Imagen de Garfield somnoliento en pijama con el texto You don't hate Mondays, you hate capitalism
 monday2.jpg:I'm just a Friday girl...:Mujer con una taza de desayuno y bostezando, con la frase I'm just a Friday girl living in a Monday world
 b1f.png:It's Tuesday, my acquaintances:Rana con el texto It is Tuesday, my acquaintances
 marisa.gif:Feliz martes de Marisa:Un GIF de "feliz martes de Marisa" donde salen varios dibujos de Marisa Kirisame con purpurina.
