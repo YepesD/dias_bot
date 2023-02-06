@@ -1,9 +1,6 @@
 name: betaowo
 
-on:
-  push:
-    branches:
-      - beta
+on: [workflow_dispatch]
 
 jobs:
   build:
