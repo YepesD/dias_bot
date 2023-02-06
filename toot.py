@@ -7,7 +7,7 @@ import time
 import xml.etree.ElementTree as ET
 
 tree = ET.parse('./dias/desc.xml')
-path = "./description"
+xmlpath = "./description"
 root = tree.getroot()
 
 mastodon = Mastodon(
@@ -24,7 +24,7 @@ num_files = len(files)
 if num_files >= 1:
     position = randint(0, num_files-1)
     file = files[position]
-    path_id = path + "[@id='" + file + "']"
+    path_id = xmlpath + "[@id='" + file + "']"
     for item in root.findall(path_id):
         texto = item[0].text
         desc  = item[1].text
