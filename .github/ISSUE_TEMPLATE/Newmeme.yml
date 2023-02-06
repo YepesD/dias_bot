@@ -1,6 +1,7 @@
 name: Nuevo meme
 description: Petición de nuevos memes al bot
-
+labels: nuevo meme
+assignees: YepesD
 body:
   - type: input
     id: url
