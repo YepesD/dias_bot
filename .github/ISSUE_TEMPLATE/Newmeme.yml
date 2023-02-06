@@ -32,7 +32,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Alt Text
+    id: Alt_Text
     attributes:
       label: Alt Text
       description: "Por favor, describe aquí la imagen o el vídeo que has subido"
