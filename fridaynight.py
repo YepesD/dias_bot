@@ -6,7 +6,7 @@ import os
 #Creamos objeto Mastodon
 mastodon = Mastodon(
     access_token = os.environ['KEY'],
-    api_base_url = 'https://owo.cafe'
+    api_base_url = os.environ['INS']
     )
 #El toot va hardcodeado. Siempre es el mismo
 texto = "There's always time for fun... It's Friday night"
