@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Como regla general no subiré ninguna imagen discriminatoria, o bien contenga contenido NSFW
+        Como regla general no subiré ninguna imagen discriminatoria, o bien contenga contenido NSFW.
   - type: input
     id: url
     attributes:
