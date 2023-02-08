@@ -1,11 +1,14 @@
 from mastodon import Mastodon
 import time
 import os
+
+#Ejecución especial de viernes noche
+#Creamos objeto Mastodon
 mastodon = Mastodon(
     access_token = os.environ['KEY'],
     api_base_url = 'https://owo.cafe'
     )
-
+#El toot va hardcodeado. Siempre es el mismo
 texto = "There's always time for fun... It's Friday night"
 
 path = "./dias/night/Fridaynight.mp4"
