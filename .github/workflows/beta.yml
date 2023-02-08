@@ -24,4 +24,4 @@ jobs:
         env: 
          KEY: ${{ secrets.ACCESS_TOKEN_TEST }}
          INS: ${{ vars.MAST_INSTANCE }}
-        run: echo "Probando esto $INS"
+        run: python toot.py
