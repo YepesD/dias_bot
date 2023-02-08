@@ -25,5 +25,6 @@ jobs:
       - name: execute py script
         env: 
          KEY: ${{ secrets.ACCESS_TOKEN }}
+         INS: ${{ vars.MAST_INSTANCE }}
         run: python toot.py
           
