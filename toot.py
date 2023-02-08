@@ -12,7 +12,7 @@ root = tree.getroot()
 #Objeto de Mastodon
 mastodon = Mastodon(
     access_token = os.environ['KEY'],
-    api_base_url = 'https://owo.cafe'
+    api_base_url = os.environ['INS']
     )
 #Seleccionamos día de la semana
 files = []
