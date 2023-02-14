@@ -34,7 +34,11 @@ if num_files >= 1:
             content = f.read()
             if file not in content:
                 found = True
-                f.write(file + "\n")
+                
+    fileappend = open(pathfiles, "a")
+    fileappend.write(file)
+    fileappend.write("\n")
+    fileappend.close()
     #Buscamos su información en el archivo de textos
     path_id = xmlpath + "[@id='" + file + "']"
     for item in root.findall(path_id):
