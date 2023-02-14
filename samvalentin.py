@@ -6,7 +6,7 @@ from random import randint
 import time
 import xml.etree.ElementTree as ET
 #Abrimos XML con los datos de textos
-tree = ET.parse('./dias/desc.xml')
+tree = ET.parse('./dias/sam/desc.xml')
 xmlpath = "./description"
 root = tree.getroot()
 #Objeto de Mastodon
@@ -38,3 +38,4 @@ if num_files >= 1:
     time.sleep(30)
     #Tooteamos
     toot = mastodon.status_post(texto, media_ids=media)
+    os.remove(media_path)
