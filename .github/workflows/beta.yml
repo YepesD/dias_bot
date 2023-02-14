@@ -24,4 +24,4 @@ jobs:
         env: 
          KEY: ${{ secrets.ACCESS_TOKEN_TEST }}
          INS: ${{ vars.MAST_INSTANCE }}
-        run: python toot.py
+        run: python samvalentin.py
