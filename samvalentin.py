@@ -42,6 +42,7 @@ if num_files >= 1:
     #Buscamos su información en el archivo de textos
     path_id = xmlpath + "[@id='" + file + "']"
     for item in root.findall(path_id):
+        print(path_id)
         texto = item[0].text #Texto del toot
         desc  = item[1].text #Alt text
     #Concatenamos la ruta completa
