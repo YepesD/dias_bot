@@ -1,8 +1,8 @@
 name: samvalentin
 
-on:
- schedule:
-   - cron: "55 */2 14 2 *"
+on: [workflow_dispatch]
+# schedule:
+#   - cron: "55 */2 14 2 *"
 
 jobs:
   build:
