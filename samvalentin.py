@@ -40,5 +40,5 @@ if num_files >= 1:
     #Dejamos que se procese todo trankiliyo sosegado relajao relajao
     time.sleep(30)
     #Tooteamos
-    toot = mastodon.status_post(texto, media_ids=media)
+    toot = mastodon.status_post(texto, media_ids=media, visibility='unlisted')
     os.remove(media_path)
