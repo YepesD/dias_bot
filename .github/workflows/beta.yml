@@ -5,6 +5,10 @@ on: [workflow_dispatch]
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
     steps:
 
       - name: checkout repo content
@@ -22,6 +26,8 @@ jobs:
           
       - name: execute py script
         env: 
-         KEY: ${{ secrets.ACCESS_TOKEN_TEST }}
+         KEY: ${{ secrets.ACCESS_TOKEN }}
          INS: ${{ vars.MAST_INSTANCE }}
         run: python samvalentin.py
+      - uses: stefanzweifel/git-auto-commit-action@v4
+          
