@@ -32,11 +32,9 @@ if num_files >= 1:
         file = files[position]
         with open(pathfiles, "r+") as f:
             content = f.read()
-            if file in content:
-            else:
+            if file not in content:
                 found = True
                 f.write(file + "\n")
-    #Buscamos su información en el archivo de textos
     #Buscamos su información en el archivo de textos
     path_id = xmlpath + "[@id='" + file + "']"
     for item in root.findall(path_id):
