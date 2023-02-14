@@ -5,6 +5,7 @@ from random import random
 from random import randint
 import time
 import xml.etree.ElementTree as ET
+found = False
 #Abrimos XML con los datos de textos
 tree = ET.parse('./dias/sam/desc.xml')
 xmlpath = "./description"
@@ -20,13 +21,21 @@ dt = datetime.now()
 x = dt.weekday()
 #Abrimos carpeta correspondiente al día de la semana
 path = "./dias/sam/"
+pathfiles = "./dias/sam/memes.txt"
 files = os.listdir(path)
 num_files = len(files)
 #Si encontramos archivos...
 if num_files >= 1:
     #Seleccionamos uno al azar
-    position = randint(0, num_files-1)
-    file = files[position]
+    while found == False:
+        position = randint(0, num_files-1)
+        file = files[position]
+        with open(pathfiles, "r+") as f:
+            content = f.read()
+            if file in content:
+            else:
+                found = True
+                f.write(file + "\n")
     #Buscamos su información en el archivo de textos
     #Buscamos su información en el archivo de textos
     path_id = xmlpath + "[@id='" + file + "']"
@@ -41,4 +50,3 @@ if num_files >= 1:
     time.sleep(30)
     #Tooteamos
     toot = mastodon.status_post(texto, media_ids=media, visibility='unlisted')
-    os.remove(media_path)
