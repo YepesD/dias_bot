@@ -28,8 +28,11 @@ if num_files >= 1:
     position = randint(0, num_files-1)
     file = files[position]
     #Buscamos su información en el archivo de textos
-    texto = 'Espéreme señor Frodo' #Texto del toot
-    desc  = 'Sam va lentín' #Alt text
+    #Buscamos su información en el archivo de textos
+    path_id = xmlpath + "[@id='" + file + "']"
+    for item in root.findall(path_id):
+        texto = item[0].text #Texto del toot
+        desc  = item[1].text #Alt text
     #Concatenamos la ruta completa
     media_path = path + file
     #Anexamos el archivo al objeto media_post de Mastodon
