@@ -1,9 +1,1 @@
-sam2.jpg
-sam1.jpg
-sam16.jpg
-sam7.jpg
-sam13.jpg
-sam17.jpg
-sam4.jpg
-sam12.jpg
-sam9.jpg
+
