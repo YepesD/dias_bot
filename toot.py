@@ -52,6 +52,8 @@ if num_files >= 1:
             toot = mastodon.status_post(texto, media_ids=media, visibility='private')
         except:
             print("Error al enviar toot, reintentamos")
+        else:
+            break
     else:
         print("Error al enviar toot")
         
