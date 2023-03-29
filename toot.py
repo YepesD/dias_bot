@@ -49,7 +49,7 @@ if num_files >= 1:
     for attempt2 in range(10):
         try:
             #Tooteamos
-            toot = mastodon.status_post(texto, media_ids=media, visibility='private')
+            toot = mastodon.status_post(texto, media_ids=media)
         except:
             print("Error al enviar toot, reintentamos")
         else:
