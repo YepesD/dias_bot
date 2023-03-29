@@ -34,9 +34,18 @@ if num_files >= 1:
         desc  = item[1].text #Alt text
     #Concatenamos la ruta completa
     media_path = path + file
-    #Anexamos el archivo al objeto media_post de Mastodon
-    media = mastodon.media_post(media_path, description=desc)
-    #Dejamos que se procese todo trankiliyo sosegado relajao relajao
-    time.sleep(30)
-    #Tooteamos
-    toot = mastodon.status_post(texto, media_ids=media)
+    for attempt in range(10):
+        try:         
+            #Anexamos el archivo al objeto media_post de Mastodon
+            media = mastodon.media_post(media_path, description=desc)
+            #Dejamos que se procese todo trankiliyo sosegado relajao relajao
+            time.sleep(30)
+        except:
+            print("Error en la subida de media")
+        else:
+            for attempt2 in range(10):
+                try:
+                    #Tooteamos
+                    toot = mastodon.status_post(texto, media_ids=media)
+                except:
+                    print("Error al enviar toot")
