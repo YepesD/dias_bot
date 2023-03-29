@@ -41,11 +41,17 @@ if num_files >= 1:
             #Dejamos que se procese todo trankiliyo sosegado relajao relajao
             time.sleep(30)
         except:
-            print("Error en la subida de media")
+            print("Error en la subida de media, reintentamos")
         else:
-            for attempt2 in range(10):
-                try:
-                    #Tooteamos
-                    toot = mastodon.status_post(texto, media_ids=media, visibility='private')
-                except:
-                    print("Error al enviar toot")
+            break
+    else:
+        print("Error en la subida de media")
+    for attempt2 in range(10):
+        try:
+            #Tooteamos
+            toot = mastodon.status_post(texto, media_ids=media, visibility='private')
+        except:
+            print("Error al enviar toot, reintentamos")
+    else:
+        print("Error al enviar toot")
+        
