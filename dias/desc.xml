@@ -64,9 +64,13 @@
 		<text>Feliç dijous, Conillet Dolent</text>
 		<alt>Bad Bunny por teléfono le desea feliz jueves a Carles Puidgemont (en catalán), Puidgemont le desea a Bad Bunny feliz jueves también</alt>
 	</description>
-		<description id="dijousmaquina.jpg">
+	<description id="dijousmaquina.jpg">
 		<text>Com estan els màquines, abans que res, Asuka</text>
 		<alt>Asuka de espaldas por teléfono le desea feliz jueves a Carles Puidgemont (en catalán), Puidgemont le pregunta, también en catalán, cómo están los máquinas lo primero de todo</alt>
+	</description>
+	<description id="juebe.jpeg">
+		<text>Juebe</text>
+		<alt>Tres viñetas. Película "Yo Robot". en la primera viñeta el robot pregunta "Q dia es", en la segunda Will Smith se pone la mano en la boca a punto de llorar. En la tercera, con lágrimas en los ojos, dice "juebe"</alt>
 	</description>
 	<description id="california.mp4">
 		<text>Today is Friday in California</text>
