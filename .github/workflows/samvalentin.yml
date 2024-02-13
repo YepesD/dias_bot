@@ -1,8 +1,8 @@
 name: samvalentin
 
-on:
- schedule:
-   - cron: "55 * 14 2 *"
+on: [workflow_dispatch]
+# schedule:
+#   - cron: "55 * 14 2 *"
 
 jobs:
   build:
@@ -28,7 +28,7 @@ jobs:
           
       - name: execute py script
         env: 
-         KEY: ${{ secrets.ACCESS_TOKEN }}
+         KEY: ${{ secrets.ACCESS_TOKEN_TEST }}
          INS: ${{ vars.MAST_INSTANCE }}
         run: python samvalentin.py
       - uses: stefanzweifel/git-auto-commit-action@v4
