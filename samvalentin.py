@@ -7,7 +7,7 @@ import time
 import xml.etree.ElementTree as ET
 found = False
 #Abrimos XML con los datos de textos
-tree = ET.parse('./dias/sam/desc.xml')
+tree = ET.parse('./dias/desc_sam.xml')
 xmlpath = "./description"
 root = tree.getroot()
 #Objeto de Mastodon
@@ -21,7 +21,7 @@ dt = datetime.now()
 x = dt.weekday()
 #Abrimos carpeta correspondiente al día de la semana
 path = "./dias/sam/"
-pathfiles = "./dias/sam/memes.txt"
+pathfiles = "./dias/memes.txt"
 files = os.listdir(path)
 num_files = len(files)
 #Si encontramos archivos...
