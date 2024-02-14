@@ -28,7 +28,7 @@ jobs:
           
       - name: execute py script
         env: 
-         KEY: ${{ secrets.ACCESS_TOKEN_TEST }}
+         KEY: ${{ secrets.ACCESS_TOKEN }}
          INS: ${{ vars.MAST_INSTANCE }}
         run: python samvalentin.py
       - uses: stefanzweifel/git-auto-commit-action@v4
