@@ -2,3 +2,4 @@
 sam7.jpg
 sam12.jpg
 sam22.jpg
+sam1.jpg
