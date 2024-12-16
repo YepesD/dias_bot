@@ -36,6 +36,12 @@
 		<text>It's Teto Tuesday!</text>
 		<alt>Un GIF de Teto Kasane bailando con el texto It's Teto Tuesday!!!</alt>
 	</description>
+	<description id="martesmartes.jpg">
+		<text>Martes martes martes</text>
+		<alt>Captura de pantalla de un artículo de la wikipedia titulado Martes martes martes.
+El artículo dice: Martes martes martes es una subespecie de mamíferos carnívoros de la familia Mustelidae, subfamilia Mustelinae.
+Tiene una imagen donde se ve al animal, se parece un poco a una comadreja.</alt>
+	</description>
 	<description id="makelele.mp4">
 		<text>Hoy es miércoles, se fuma makelele</text>
 		<alt>Vídeo de una persona cantando Hoy es Miércoles, se fuma makelele. Se le cae un tarro al suelo y se pone a llorar</alt>
