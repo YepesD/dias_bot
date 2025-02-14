@@ -13,3 +13,4 @@ sam6.jpg
 sam8.jpg
 sam5.jpg
 sam4.jpg
+sam22.jpg
