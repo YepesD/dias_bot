@@ -9,3 +9,4 @@ sam20.png
 sam19.jpg
 sam14.jpg
 sam7.jpg
+sam6.jpg
