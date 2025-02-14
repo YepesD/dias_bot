@@ -1,8 +1,8 @@
 name: toot-owo
 
-on: [workflow_dispatch]
- #schedule:
-  # - cron: "3 7 * * *"
+on: #[workflow_dispatch]
+ schedule:
+   - cron: "3 7 * * *"
 
 jobs:
   build:
