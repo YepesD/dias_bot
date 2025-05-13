@@ -1,8 +1,8 @@
 name: toot-owo
 
-on: #[workflow_dispatch]
- schedule:
-   - cron: "3 7 * * *"
+on: [workflow_dispatch]
+# schedule:
+ #  - cron: "3 7 * * *"
 
 jobs:
   build:
@@ -28,5 +28,5 @@ jobs:
          INS: ${{ vars.MAST_INSTANCE }}
         run: python toot.py
 
-      - name: actu repo
-        uses: gautamkrishnar/keepalive-workflow@v1
+#      - name: actu repo
+#        uses: gautamkrishnar/keepalive-workflow@v1
