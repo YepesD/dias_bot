@@ -1,0 +1,33 @@
+name: Nuevo meme
+description: Petición de nuevos memes de Sam
+labels: nuevo meme Sam Va Lentin
+assignees: YepesD
+body:
+  - type: markdown
+    attributes:
+      value: "El propietario se reserva el derecho a no incluir la imagen o el vídeo si este incumple las normas de la instancia de Mastodon correspondiente."
+  - type: markdown
+    attributes:
+      value: |
+        Como regla general no subiré ninguna imagen discriminatoria, o bien contenga contenido NSFW.
+  - type: input
+    id: url
+    attributes:
+      label: URL del meme
+      description: "Por favor, pon aquí un link a la imagen o al vídeo"
+    validations:
+      required: true  
+  - type: input
+    id: Toot
+    attributes:
+      label: Texto del toot
+      description: "Indica aquí el texto que quieras que aparezca al tootearse el meme"
+    validations:
+      required: true
+  - type: textarea
+    id: Alt_Text
+    attributes:
+      label: Alt Text
+      description: "Por favor, describe aquí la imagen o el vídeo que has subido"
+    validations:
+      required: true
