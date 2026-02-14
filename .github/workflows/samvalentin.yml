@@ -2,7 +2,7 @@ name: samvalentin
 
 on:  
  schedule:
-   - cron: "0 6-23 14 2 *"
+   - cron: "0 6-23/2 14 2 *"
 
 jobs:
   build:
